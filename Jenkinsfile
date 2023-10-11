@@ -3,13 +3,13 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                echo 'Hello World'
+                echo "Hello Worl"
             }
         }
     }
     post { 
         always { 
-            echo 'I will always say Hello again!'
+            echo "I will always say Hello again!"
         }
     }
 }
